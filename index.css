@@ -1,0 +1,58 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav
+{
+  
+    display:flex ;
+    flex-direction: column;
+    padding: 0px;
+    width: 20%;
+}
+ 
+.nav a
+{
+    position: relative;
+    top: 10%;
+    left: -80px;
+    text-decoration: none;
+    color: #fff;
+    padding: 20px;
+    text-align: start;
+    border-radius: 0 5px 5px 0;
+    
+}
+.nav a:hover
+{
+    color: #fff;
+    left: 0px;
+    transition: all .3s ease;
+}
+
+#about {
+    top: 20px;
+    background-color: #4CAF50;
+    
+  }
+  
+  #blog {
+    top: 80px;
+    background-color: #2196F3;
+  
+  }
+  
+  #projects {
+    top: 140px;
+    background-color: #f44336;
+   
+  }
+  
+  #contact {
+    top: 200px;
+    background-color: #555;
+     
+  }
